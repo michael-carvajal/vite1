@@ -91,7 +91,7 @@ const Navbar = () => {
 
       <div
         className={`absolute right-0 top-20 transform rounded bg-slate-800 opacity-0 transition-opacity ${
-          mobileMenuOpen ? " opacity-100" : "opacity-0"
+          mobileMenuOpen ? " opacity-100" : "opacity-0 -z-100"
         } `}
         id="mobile-menu "
       >
