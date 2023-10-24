@@ -1,8 +1,10 @@
+import Navbar from "./Components/Navbar";
+
 function App() {
 
   return (
     <div className="">
-      <h1>HellomWorld</h1>
+      <Navbar />
     </div>
   );
 }
