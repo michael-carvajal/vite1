@@ -1,3 +1,4 @@
+import AboutUs from "./Components/AboutUs";
 import Carousel from "./Components/Carousel";
 import Navbar from "./Components/Navbar";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="">
       <Navbar />
       <Carousel />
+      <AboutUs />
     </div>
   );
 }
