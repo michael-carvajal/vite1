@@ -1,12 +1,36 @@
-import React from 'react'
+import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className='flex w-full flex-col justify-center h-72 items-center px-10'>
-      <h1 className='text-3xl md:text-4xl font-bold text-center mb-10 md:mb-16'>WELCOME TO MT. KISCO SMOKEHOUSE </h1>
-      <div className='font-semibold md:text-lg'>520 Lexington Ave * Mt Kisco, NY * (914) 244-0702</div>
+    <section className="flex h-72 w-full flex-col items-center justify-center px-10">
+      <h1 className="mb-10 text-center text-3xl font-bold md:mb-16 md:text-4xl">
+        WELCOME TO MT. KISCO SMOKEHOUSE{" "}
+      </h1>
+      <div className="flex flex-col items-center gap-2 font-semibold md:flex-row md:text-lg">
+        <p>520 Lexington Ave</p>
+        <svg
+          viewBox="0 0 2 2"
+          width={3}
+          height={3}
+          aria-hidden="true"
+          className="hidden  fill-gray-900 md:block"
+        >
+          <circle cx={1} cy={1} r={1} />
+        </svg>{" "}
+        <p>Mt Kisco, NY</p>
+        <svg
+          viewBox="0 0 2 2"
+          width={3}
+          height={3}
+          aria-hidden="true"
+          className="hidden fill-gray-900 md:block"
+        >
+          <circle cx={1} cy={1} r={1} />
+        </svg>
+        <a href="tel:9142440702">914-244-0702</a>
+      </div>
     </section>
   );
-}
+};
 
-export default AboutUs
+export default AboutUs;
