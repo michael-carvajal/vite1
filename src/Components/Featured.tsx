@@ -23,32 +23,23 @@ const Featured = () => {
     return () => clearInterval(imageInterval);
   }, [salmonImage]);
 
-
   return (
-    <div className="flex flex-col p-6">
-      <div className="w-full">
-        <img src={salmonImages[salmonImage]}  className="w-full rounded h-auto object-cover" />
-        <h3>OUR SMOKED SALMON</h3>
-        <p>
-          Our smokehouse smokes fresh sustainably-raised Atlantic salmon onsite
-          everyday. All of our smoked salmon varieties are all-natural, use no
-          preservatives, and are never frozen before or after smoking. We don’t
-          stock an inventory of smoked salmon—we receive our fish directly from
-          the airport and after inspection it goes right into our smoking
-          process and then out the door to be delivered to our customers.{" "}
-        </p>
-      </div>
-      <div>
-        <img />
-        <h3>OUR SMOKED SALMON</h3>
-        <p>
-          Our smokehouse smokes fresh sustainably-raised Atlantic salmon onsite
-          everyday. All of our smoked salmon varieties are all-natural, use no
-          preservatives, and are never frozen before or after smoking. We don’t
-          stock an inventory of smoked salmon—we receive our fish directly from
-          the airport and after inspection it goes right into our smoking
-          process and then out the door to be delivered to our customers.{" "}
-        </p>
+    <div className="flex  flex-col md:flex-row">
+      <div className="flex flex-col gap-6 p-6">
+          <img
+            src={salmonImages[salmonImage]}
+            className=" h-72 w-full rounded object-cover"
+          />
+          <h3 className="text-lg font-semibold">OUR SMOKED SALMON</h3>
+          <p>
+            Our smokehouse smokes fresh sustainably-raised Atlantic salmon
+            onsite everyday. All of our smoked salmon varieties are all-natural,
+            use no preservatives, and are never frozen before or after smoking.
+            We don’t stock an inventory of smoked salmon—we receive our fish
+            directly from the airport and after inspection it goes right into
+            our smoking process and then out the door to be delivered to our
+            customers.{" "}
+          </p>
       </div>
     </div>
   );
