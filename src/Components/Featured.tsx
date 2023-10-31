@@ -24,7 +24,7 @@ const Featured = () => {
   }, [salmonImage]);
 
   return (
-    <div className="flex  flex-col md:flex-row">
+    <div className="flex  flex-col md:flex-row shadow-2xl my-12  ">
       <div className="flex flex-col gap-6 p-6">
           <img
             src={salmonImages[salmonImage]}
