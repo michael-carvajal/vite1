@@ -21,110 +21,117 @@ const Testimonials = () => {
             stopOnLastSlide: true,
             pauseOnMouseEnter: true,
           }}
-          pagination={{
-            clickable: true,
-          }}
+
           loop={true}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Autoplay, Pagination]}
           //   onAutoplayTimeLeft={onAutoplayTimeLeft}
           className="mySwiper"
-              >
-
-        <SwiperSlide>
-          <figure className="mt-10">
-            <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-              <p>
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.”
-              </p>
-            </blockquote>
-            <figcaption className="mt-10">
-              <img
-                className="mx-auto h-10 w-10 rounded-full"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
-              />
-              <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                <div className="font-semibold text-gray-900">Judith Black</div>
-                <svg
-                  viewBox="0 0 2 2"
-                  width={3}
-                  height={3}
-                  aria-hidden="true"
-                  className="fill-gray-900"
-                >
-                  <circle cx={1} cy={1} r={1} />
-                </svg>
-                <div className="text-gray-600">CEO of Workcation</div>
-              </div>
-            </figcaption>
-          </figure>
-        </SwiperSlide>
-        <SwiperSlide>
-          <figure className="mt-10">
-            <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-              <p>
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.”
-              </p>
-            </blockquote>
-            <figcaption className="mt-10">
-              <img
-                className="mx-auto h-10 w-10 rounded-full"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
-              />
-              <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                <div className="font-semibold text-gray-900">Judith Black</div>
-                <svg
-                  viewBox="0 0 2 2"
-                  width={3}
-                  height={3}
-                  aria-hidden="true"
-                  className="fill-gray-900"
+        >
+          <SwiperSlide>
+            <figure className="mt-10">
+              <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+                <p>
+                  “The best smoked salmon ever, period.. Friendly helpful staff
+                  too !!”
+                </p>
+              </blockquote>
+              <figcaption className="mt-10">
+                <img
+                  className="mx-auto h-10 w-10 rounded-full"
+                  src="https://s3-media0.fl.yelpcdn.com/photo/NeJ6wgmu6J2HOae4BCz-Eg/60s.jpg"
+                  alt=""
+                />
+                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                  <div className="font-semibold text-gray-900">Steve Z.</div>
+                  <svg
+                    viewBox="0 0 2 2"
+                    width={3}
+                    height={3}
+                    aria-hidden="true"
+                    className="fill-gray-900"
                   >
-                  <circle cx={1} cy={1} r={1} />
-                </svg>
-                <div className="text-gray-600">CEO of Workcation</div>
-              </div>
-            </figcaption>
-          </figure>
-        </SwiperSlide>
-        <SwiperSlide>
-          <figure className="mt-10">
-            <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-              <p>
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.”
-              </p>
-            </blockquote>
-            <figcaption className="mt-10">
-              <img
-                className="mx-auto h-10 w-10 rounded-full"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
-              />
-              <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                <div className="font-semibold text-gray-900">Judith Black</div>
-                <svg
-                  viewBox="0 0 2 2"
-                  width={3}
-                  height={3}
-                  aria-hidden="true"
-                  className="fill-gray-900"
-                >
-                  <circle cx={1} cy={1} r={1} />
-                </svg>
-                <div className="text-gray-600">CEO of Workcation</div>
-              </div>
-            </figcaption>
-          </figure>
-        </SwiperSlide>
-        </ Swiper >
+                    <circle cx={1} cy={1} r={1} />
+                  </svg>
+                  <div className="text-gray-600">Boynton Beach, FL</div>
+                </div>
+              </figcaption>
+            </figure>
+          </SwiperSlide>
+          <SwiperSlide>
+            <figure className="mt-10">
+              <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+                <p>
+                  “I drive close to 30 mins each way every weekend to Mt Kisco
+                  Smokehouse and it's worth it! My family loves their baked
+                  salmon salad, but i prefer their hand sliced nova and scotch
+                  salmon. Both smooth, silky and delicious, but the scotch has a
+                  bit more flavor which i prefer. And it's not salty like at
+                  some other place. If you are in a rush, the pre-sliced is
+                  among the best you'll find anywhere. If you are a bit more
+                  adventurous try the sable, baked salmon, or smoked tuna salad.
+                  They also have a nice selection of cheeses and usually a few
+                  veggies and lemons if you like to dress your bagel.”
+                </p>
+              </blockquote>
+              <figcaption className="mt-10">
+                <img
+                  className="mx-auto h-10 w-10 rounded-full"
+                  src="https://s3-media0.fl.yelpcdn.com/photo/L9XkyPNdalYFZkMOx54Ucw/60s.jpg"
+                  alt=""
+                />
+                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                  <div className="font-semibold text-gray-900">Richard S.</div>
+                  <svg
+                    viewBox="0 0 2 2"
+                    width={3}
+                    height={3}
+                    aria-hidden="true"
+                    className="fill-gray-900"
+                  >
+                    <circle cx={1} cy={1} r={1} />
+                  </svg>
+                  <div className="text-gray-600">White Plains, NY</div>
+                </div>
+              </figcaption>
+            </figure>
+          </SwiperSlide>
+          <SwiperSlide>
+            <figure className="mt-10">
+              <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+                <p>
+                  “The best smoked salmon you will ever taste. There is no
+                  comparison between hand-sliced nova that literally melts in
+                  your mouth and the stuff you buy in packages in the grocery
+                  stores. Their prices are very reasonable and they usually have
+                  an excellent selection of other smoked appetizers. They make
+                  you feel very welcome and the fish is smoked on site.”
+                </p>
+              </blockquote>
+              <figcaption className="mt-10">
+                <img
+                  className="mx-auto h-10 w-10 rounded-full"
+                  src="https://s3-media0.fl.yelpcdn.com/photo/EmlkxPIgGnL6X91L_w-SIA/60s.jpg"
+                  alt=""
+                />
+                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                  <div className="font-semibold text-gray-900">
+                    Scott B.
+                  </div>
+                  <svg
+                    viewBox="0 0 2 2"
+                    width={3}
+                    height={3}
+                    aria-hidden="true"
+                    className="fill-gray-900"
+                  >
+                    <circle cx={1} cy={1} r={1} />
+                  </svg>
+                  <div className="text-gray-600">Stamford, CT</div>
+                </div>
+              </figcaption>
+            </figure>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </section>
   );
