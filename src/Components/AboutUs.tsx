@@ -13,7 +13,7 @@ const AboutUs = () => {
           width={3}
           height={3}
           aria-hidden="true"
-          className="hidden  fill-gray-900 md:block"
+          className="hidden  fill-white md:block"
         >
           <circle cx={1} cy={1} r={1} />
         </svg>{" "}
@@ -23,7 +23,7 @@ const AboutUs = () => {
           width={3}
           height={3}
           aria-hidden="true"
-          className="hidden fill-gray-900 md:block"
+          className="hidden fill-white md:block"
         >
           <circle cx={1} cy={1} r={1} />
         </svg>
