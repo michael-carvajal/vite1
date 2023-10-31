@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Import Swiper styles
 import "swiper/css/navigation";
@@ -6,6 +6,12 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Testimonials = () => {
+    const text =
+      "I drive close to 30 mins each way every weekend to Mt Kisco Smokehouse and it's worth it! My family loves their baked salmon salad, but i prefer their hand sliced nova and scotch salmon. Both smooth, silky and delicious, but the scotch has a bit more flavor which i prefer. And it's not salty like at some other place. If you are in a rush, the pre-sliced is among the best you'll find anywhere. If you are a bit more adventurous try the sable, baked salmon, or smoked tuna salad. They also have a nice selection of cheeses and usually a few veggies and lemons if you like to dress your bagel.";
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const truncatedText = isExpanded ? text : text.slice(0, 100) + "...";
+
   return (
     <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
@@ -21,7 +27,6 @@ const Testimonials = () => {
             stopOnLastSlide: true,
             pauseOnMouseEnter: true,
           }}
-
           loop={true}
           modules={[Autoplay, Pagination]}
           //   onAutoplayTimeLeft={onAutoplayTimeLeft}
@@ -60,18 +65,15 @@ const Testimonials = () => {
           <SwiperSlide>
             <figure className="mt-10">
               <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-                <p>
-                  “I drive close to 30 mins each way every weekend to Mt Kisco
-                  Smokehouse and it's worth it! My family loves their baked
-                  salmon salad, but i prefer their hand sliced nova and scotch
-                  salmon. Both smooth, silky and delicious, but the scotch has a
-                  bit more flavor which i prefer. And it's not salty like at
-                  some other place. If you are in a rush, the pre-sliced is
-                  among the best you'll find anywhere. If you are a bit more
-                  adventurous try the sable, baked salmon, or smoked tuna salad.
-                  They also have a nice selection of cheeses and usually a few
-                  veggies and lemons if you like to dress your bagel.”
-                </p>
+                <p>{truncatedText}</p>
+                {!isExpanded && (
+                  <button
+                    onClick={() => setIsExpanded(true)}
+                    className="text-blue-500"
+                  >
+                    Read more
+                  </button>
+                )}
               </blockquote>
               <figcaption className="mt-10">
                 <img
@@ -114,9 +116,7 @@ const Testimonials = () => {
                   alt=""
                 />
                 <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                  <div className="font-semibold text-gray-900">
-                    Scott B.
-                  </div>
+                  <div className="font-semibold text-gray-900">Scott B.</div>
                   <svg
                     viewBox="0 0 2 2"
                     width={3}
