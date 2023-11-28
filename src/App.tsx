@@ -4,7 +4,7 @@ import Featured from "./Components/Featured";
 import Navbar from "./Components/Navbar";
 import Testimonials from "./Components/Testimonials";
 import ScrollToTop from "react-scroll-to-top";
-import Arrow from "./Components/Arrow.svg";
+import Arrow from "./Components/Arrow";
 function App() {
 
   return (
