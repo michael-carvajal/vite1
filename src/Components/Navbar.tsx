@@ -12,26 +12,26 @@ const Navbar = () => {
       <img src={logo} className="h-4/5" />
       <div className="hidden space-x-4 md:block">
         <a
-          href="#"
+          href="#featured"
           className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
           aria-current="page"
         >
           Featured
         </a>
         <a
-          href="#"
+          href="#aboutUs"
           className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
         >
           About Us
         </a>
         <a
-          href="#"
+          href="#testimonials"
           className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
         >
           Testimonials
         </a>
         <a
-          href="#"
+          href="#followUs"
           className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
         >
           Follow Us
@@ -91,7 +91,7 @@ const Navbar = () => {
 
       <div
         className={`absolute right-0 top-20 transform rounded bg-slate-800 opacity-0 transition-opacity ${
-          mobileMenuOpen ? " opacity-100" : "opacity-0 -z-100"
+          mobileMenuOpen ? " opacity-100" : "-z-100 opacity-0"
         } `}
         id="mobile-menu "
       >

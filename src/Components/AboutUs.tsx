@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="flex h-72 w-full flex-col items-center justify-center px-10">
+    <section id='aboutUs' className="flex h-72 w-full flex-col items-center justify-center px-10">
       <h1 className="mb-10 text-center text-3xl font-bold md:mb-16 md:text-4xl">
         WELCOME TO MT. KISCO SMOKEHOUSE{" "}
       </h1>
