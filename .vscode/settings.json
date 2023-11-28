@@ -9,5 +9,5 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "editor.inlineSuggest.showToolbar": "onHover"
+  "editor.inlineSuggest.showToolbar": "always"
 }
