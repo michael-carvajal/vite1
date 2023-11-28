@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.gothic-texts {
+    font-family: 'Nanum Gothic', sans-serif;
+
+}

@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Testimonials from "./Components/Testimonials";
 import ScrollToTop from "react-scroll-to-top";
 import Arrow from "./Components/Arrow";
+import { Footer } from "./Footer";
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutUs />
       <Featured />
       <Testimonials />
+      <Footer />
       <ScrollToTop
         smooth
         color="white"
