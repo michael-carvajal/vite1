@@ -91,36 +91,36 @@ const Navbar = () => {
 
       <div
         className={`absolute right-0 top-20 transform rounded bg-slate-800 opacity-0 transition-opacity ${
-          mobileMenuOpen ? " opacity-100" : "-z-100 opacity-0"
+          mobileMenuOpen ? " opacity-100 z-10" : " opacity-0"
         } `}
         id="mobile-menu "
       >
         <div className="space-y-1 px-2 pb-3 pt-2 ">
           {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
           <a
-            href="#"
+            href="#featured"
             className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
             aria-current="page"
           >
-            Dashboard
+            Featured
           </a>
           <a
-            href="#"
+            href="#aboutUs"
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
           >
-            Team
+            About Us
           </a>
           <a
-            href="#"
+            href="#testimonials"
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
           >
-            Projects
+            Testimonials
           </a>
           <a
-            href="#"
+            href="#followUs"
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
           >
-            Calendar
+            Follow Us
           </a>
         </div>
       </div>

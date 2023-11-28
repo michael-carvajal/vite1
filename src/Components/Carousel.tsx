@@ -37,7 +37,7 @@ const Carousel = () => {
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
       //   onAutoplayTimeLeft={onAutoplayTimeLeft}
-      className="mySwiper"
+      className="mySwiper -z-10"
     >
       <SwiperSlide>
         <div className="w-full rounded-lg border p-4 text-center shadow sm:p-8">
