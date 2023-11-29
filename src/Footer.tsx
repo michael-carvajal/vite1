@@ -7,6 +7,7 @@ export const Footer = () => {
       id="followUs"
       className=" rounded-lg border bg-neutral-200 pb-4 pt-4  text-white shadow dark:bg-neutral-600"
     >
+      <h3 className="text-center mb-10 mt-8 text-lg md:text-2xl text-gray-700">Connect with us!</h3>
       <div className="mx-auto  flex max-w-sm items-center justify-around">
         <a
           target="_blank"
@@ -46,12 +47,17 @@ export const Footer = () => {
           className=" text-neutral-800 dark:text-neutral-200"
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4 md:h-8 md:w-8"
-            fill="currentColor"
+            className="h-5 w-5 md:h-9 md:w-9"
+            fill="none"
             viewBox="0 0 24 24"
+            stroke="currentColor"
           >
-            <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            ></path>
           </svg>
         </a>
       </div>
