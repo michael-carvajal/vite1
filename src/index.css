@@ -13,8 +13,8 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  bottom: 25px;
-  right: 25px;
+  bottom: 15px!important;
+  right: 15px!important;
   border-radius: 25%;
   background-color: #FF4500!important; /* Use your preferred orange color */
   padding: 8px;

@@ -37,48 +37,48 @@ const Carousel = () => {
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
       //   onAutoplayTimeLeft={onAutoplayTimeLeft}
-      className="mySwiper -z-10"
+      className="mySwiper -z-10 min-h-[225px]"
     >
-      <SwiperSlide>
+      <SwiperSlide className="mb-1">
         <div className="w-full rounded-lg border p-4 text-center shadow sm:p-8">
           <img
             src={platter}
             alt="app screenshot"
             className="mx-auto rounded-lg"
-            style={{ width: "100%", maxWidth: "50%" }}
+            style={{ maxWidth: "70%", objectFit: "contain" }}
             loading="lazy"
           />
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="mb-1">
         <div className="w-full rounded-lg border p-4 text-center shadow sm:p-8">
           <img
             src={salmonCut}
             alt="app screenshot"
             className="mx-auto rounded-lg"
-            style={{ width: "100%", maxWidth: "50%" }}
+            style={{ maxWidth: "70%", objectFit: "contain" }}
             loading="lazy"
           />
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="mb-1">
         <div className="w-full rounded-lg border p-4 text-center shadow sm:p-8">
           <img
             src={smokedTrout}
             alt="app screenshot"
             className="mx-auto rounded-lg"
-            style={{ width: "100%", maxWidth: "50%" }}
+            style={{ maxWidth: "70%", objectFit: "contain" }}
             loading="lazy"
           />
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="mb-1">
         <div className="w-full rounded-lg border p-4 text-center shadow sm:p-8">
           <img
             src={packed2}
             alt="app screenshot"
             className="mx-auto rounded-lg"
-            style={{ width: "100%", maxWidth: "50%" }}
+            style={{ maxWidth: "70%", objectFit: "contain" }}
             loading="lazy"
           />
         </div>
