@@ -35,7 +35,7 @@ const Featured = () => {
           className=" h-72 w-full rounded object-cover"
         />
         <h3 className="text-lg font-semibold">OUR SMOKED SALMON</h3>
-        <p>
+        <p className="gothic-texts">
           Our smokehouse smokes fresh sustainably-raised Atlantic salmon onsite
           everyday. All of our smoked salmon varieties are all-natural, use no
           preservatives, and are never frozen before or after smoking. We don’t
@@ -50,7 +50,7 @@ const Featured = () => {
           className=" h-72 w-full rounded object-cover"
         />
         <h3 className="text-lg font-semibold">OUR SMOKED SALMON</h3>
-        <p>
+        <p className="gothic-texts">
           Our smokehouse smokes fresh sustainably-raised Atlantic salmon onsite
           everyday. All of our smoked salmon varieties are all-natural, use no
           preservatives, and are never frozen before or after smoking. We don’t

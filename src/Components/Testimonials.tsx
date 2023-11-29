@@ -30,11 +30,11 @@ const Testimonials = () => {
           loop={true}
           modules={[Autoplay, Pagination]}
           //   onAutoplayTimeLeft={onAutoplayTimeLeft}
-          className="mySwiper"
+          className="mySwiper "
         >
           <SwiperSlide>
             <figure className="mt-10">
-              <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+              <blockquote className="text-center md:text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                 <p>
                   “The best smoked salmon ever, period.. Friendly helpful staff
                   too !!”
@@ -64,7 +64,7 @@ const Testimonials = () => {
           </SwiperSlide>
           <SwiperSlide>
             <figure className="mt-10">
-              <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+              <blockquote className="text-center md:text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                 <p>{truncatedText}</p>
                 {!isExpanded && (
                   <button
@@ -99,7 +99,7 @@ const Testimonials = () => {
           </SwiperSlide>
           <SwiperSlide>
             <figure className="mt-10">
-              <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+              <blockquote className="text-center md:text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                 <p>
                   “The best smoked salmon you will ever taste. There is no
                   comparison between hand-sliced nova that literally melts in
