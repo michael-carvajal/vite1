@@ -7,3 +7,24 @@
     font-family: 'Nanum Gothic', sans-serif;
 
 }
+.custom-scroll-top {
+  display: flex;
+  opacity: 0.8; /* Initial opacity */
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 25%;
+  background-color: #FF4500!important; /* Use your preferred orange color */
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  transition: opacity 0.3s ease; /* Transition for the opacity property */
+}
+
+.custom-scroll-top:hover {
+  opacity: 1; /* Opacity on hover */
+}
