@@ -28,3 +28,6 @@
 .custom-scroll-top:hover {
   opacity: 1; /* Opacity on hover */
 }
+body{
+    background-color: #f2f2f2;
+}
